@@ -33,7 +33,7 @@
             "wlrsilveira\\LaravelBoletosBancos\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true,
