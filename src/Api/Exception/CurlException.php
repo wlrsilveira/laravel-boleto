@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api\Exception;
+namespace Wlrsilveira\LaravelBoletos\Api\Exception;
 
 use Eduardokum\LaravelBoleto\Exception\BaseException;
 

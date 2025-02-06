@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240;
 
 use Carbon\Carbon;
 use Eduardokum\LaravelBoleto\MagicTrait;

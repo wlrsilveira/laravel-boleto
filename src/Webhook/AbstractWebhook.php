@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook;
+namespace Wlrsilveira\LaravelBoletos\Webhook;
 
 use Eduardokum\LaravelBoleto\MagicTrait;
 use Eduardokum\LaravelBoleto\Contracts\Webhook\Webhook;

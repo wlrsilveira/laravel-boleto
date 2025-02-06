@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab400\Banco;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400\Banco;
 
 use Illuminate\Support\Arr;
 use Eduardokum\LaravelBoleto\Util;

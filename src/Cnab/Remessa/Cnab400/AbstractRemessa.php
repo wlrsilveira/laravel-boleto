@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400;
 
 use ForceUTF8\Encoding;
 use Eduardokum\LaravelBoleto\Exception\ValidationException;

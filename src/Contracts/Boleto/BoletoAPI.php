@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Contracts\Boleto;
+namespace Wlrsilveira\LaravelBoletos\Contracts\Boleto;
 
 use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
 

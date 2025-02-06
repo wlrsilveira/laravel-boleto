@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook\Banco;
+namespace Wlrsilveira\LaravelBoletos\Webhook\Banco;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto;
+namespace Wlrsilveira\LaravelBoletos\Boleto;
 
 use Throwable;
 use Swift_Mailer;

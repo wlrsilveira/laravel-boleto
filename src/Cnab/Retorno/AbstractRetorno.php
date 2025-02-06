@@ -6,7 +6,7 @@
  * Time: 07:31
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno;
 
 use Countable;
 use ReflectionClass;

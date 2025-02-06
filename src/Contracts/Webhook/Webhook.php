@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Contracts\Webhook;
+namespace Wlrsilveira\LaravelBoletos\Contracts\Webhook;
 
 interface Webhook
 {

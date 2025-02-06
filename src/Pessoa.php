@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto;
+namespace Wlrsilveira\LaravelBoletos;
 
 use Eduardokum\LaravelBoleto\Exception\ValidationException;
 use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;

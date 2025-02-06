@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto;
+namespace Wlrsilveira\LaravelBoletos;
 
 use Illuminate\View\Factory;
 use Illuminate\Events\Dispatcher;

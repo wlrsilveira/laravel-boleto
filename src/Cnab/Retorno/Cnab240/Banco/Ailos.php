@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\Banco;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240\Banco;
 
 use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
 use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;

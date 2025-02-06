@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api;
+namespace Wlrsilveira\LaravelBoletos\Api;
 
 use stdClass;
 use Illuminate\Support\Str;

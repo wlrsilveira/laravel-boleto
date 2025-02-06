@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Contracts\Boleto;
+namespace Wlrsilveira\LaravelBoletos\Contracts\Boleto;
 
 use Carbon\Carbon;
 use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;

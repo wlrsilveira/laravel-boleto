@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto\Banco;
+namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Contracts\Boleto\Render;
+namespace Wlrsilveira\LaravelBoletos\Contracts\Boleto\Render;
 
 interface Pdf
 {

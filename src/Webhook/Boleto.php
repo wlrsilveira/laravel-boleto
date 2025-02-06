@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook;
+namespace Wlrsilveira\LaravelBoletos\Webhook;
 
 use Exception;
 use Carbon\Carbon;

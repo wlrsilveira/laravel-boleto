@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto\Banco;
+namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
 use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
 use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;

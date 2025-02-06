@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;

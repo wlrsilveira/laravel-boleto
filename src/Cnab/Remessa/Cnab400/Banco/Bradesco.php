@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco;
 
 use Eduardokum\LaravelBoleto\Util;
 use Eduardokum\LaravelBoleto\CalculoDV;

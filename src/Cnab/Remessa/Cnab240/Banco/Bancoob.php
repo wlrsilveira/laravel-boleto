@@ -7,7 +7,7 @@
  * Time: 15:02
  */
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab240\Banco;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab240\Banco;
 
 use Eduardokum\LaravelBoleto\Util;
 use Eduardokum\LaravelBoleto\CalculoDV;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Contracts\Api;
+namespace Wlrsilveira\LaravelBoletos\Contracts\Api;
 
 use Eduardokum\LaravelBoleto\Contracts\Boleto\BoletoAPI;
 

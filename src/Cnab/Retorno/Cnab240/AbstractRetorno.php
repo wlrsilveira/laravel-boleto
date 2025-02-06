@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240;
+namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240;
 
 use Illuminate\Support\Collection;
 use Eduardokum\LaravelBoleto\Exception\ValidationException;

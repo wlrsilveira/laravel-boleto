@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace Wlrsilveira\LaravelBoletos\Boleto\Render;
 
 use Eduardokum\LaravelBoleto\Blade;
 use Illuminate\Container\Container;

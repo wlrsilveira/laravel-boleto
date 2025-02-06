@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Exception;
+namespace Wlrsilveira\LaravelBoletos\Exception;
 
 use Exception;
 

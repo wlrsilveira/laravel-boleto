@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api\Banco;
+namespace Wlrsilveira\LaravelBoletos\Api\Banco;
 
 use Exception;
 use Carbon\Carbon;
