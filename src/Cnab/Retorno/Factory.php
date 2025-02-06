@@ -2,8 +2,8 @@
 
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno;
 
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
 
 class Factory
 {

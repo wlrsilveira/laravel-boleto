@@ -2,11 +2,11 @@
 
 namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco;
 
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
 
 class Delbank extends AbstractRemessa implements RemessaContract
 {
@@ -116,7 +116,7 @@ class Delbank extends AbstractRemessa implements RemessaContract
     }
 
     /**
-     * @param \Eduardokum\LaravelBoleto\Boleto\Banco\Delbank $boleto
+     * @param \Wlrsilveira\LaravelBoleto\Boleto\Banco\Delbank $boleto
      *
      * @return Delbank
      * @throws ValidationException

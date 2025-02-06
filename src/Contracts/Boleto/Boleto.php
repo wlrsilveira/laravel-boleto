@@ -3,7 +3,7 @@
 namespace Wlrsilveira\LaravelBoletos\Contracts\Boleto;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Pessoa as PessoaContract;
 
 interface Boleto
 {

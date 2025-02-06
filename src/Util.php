@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto;
+namespace Wlrsilveira\LaravelBoleto;
 
 use Exception;
 use Carbon\Carbon;
@@ -8,9 +8,9 @@ use NumberFormatter;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Http\UploadedFile;
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
 
 /**
  * Class Util
@@ -1155,7 +1155,7 @@ final class Util
      */
     public static function addPessoa(&$property, $obj)
     {
-        if (is_subclass_of($obj, 'Eduardokum\\LaravelBoleto\\Contracts\\Pessoa')) {
+        if (is_subclass_of($obj, 'Wlrsilveira\\LaravelBoleto\\Contracts\\Pessoa')) {
             $property = $obj;
 
             return $obj;

@@ -2,7 +2,7 @@
 
 require 'autoload.php';
 
-$beneficiario = new Eduardokum\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'cep'       => '99999-999',
@@ -11,7 +11,7 @@ $beneficiario = new Eduardokum\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$pagador = new Eduardokum\LaravelBoleto\Pessoa([
+$pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
     'nome'      => 'Cliente',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -21,7 +21,7 @@ $pagador = new Eduardokum\LaravelBoleto\Pessoa([
     'documento' => '999.999.999-99',
 ]);
 
-$boleto = new Eduardokum\LaravelBoleto\Boleto\Banco\Inter([
+$boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Inter([
     'logo'            => realpath(__DIR__ . '/../logos/') . DIRECTORY_SEPARATOR . '077.png',
     'dataVencimento'  => (new Carbon\Carbon())->addDays(),
     'valor'           => 10,
@@ -37,7 +37,7 @@ $boleto = new Eduardokum\LaravelBoleto\Boleto\Banco\Inter([
     'especieDoc'      => 'DM',
 ]);
 
-$remessa = new Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco\Inter([
+$remessa = new Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\Banco\Inter([
     'idRemessa'    => 1,
     'agencia'      => '0001',
     'conta'        => '123456789',

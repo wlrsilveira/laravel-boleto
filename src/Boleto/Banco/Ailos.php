@@ -2,10 +2,10 @@
 
 namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Util;
 
 class Ailos extends AbstractBoleto implements BoletoContract
 {

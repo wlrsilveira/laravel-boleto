@@ -3,10 +3,10 @@
 namespace Wlrsilveira\LaravelBoletos\Boleto\Render;
 
 use Illuminate\Support\Str;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
+use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
 
 class PdfCaixa extends AbstractPdf implements PdfContract
 {

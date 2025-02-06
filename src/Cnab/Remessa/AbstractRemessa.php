@@ -4,11 +4,11 @@ namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;
-use Eduardokum\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Util;
 use Illuminate\Support\Collection;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
 
 abstract class AbstractRemessa
 {

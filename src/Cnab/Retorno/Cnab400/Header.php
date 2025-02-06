@@ -3,8 +3,8 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\MagicTrait;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Header as HeaderContract;
+use Wlrsilveira\LaravelBoleto\MagicTrait;
+use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Header as HeaderContract;
 
 class Header implements HeaderContract
 {

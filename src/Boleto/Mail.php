@@ -9,18 +9,18 @@ use Illuminate\Support\Arr;
 use Illuminate\Mail\Message;
 use Illuminate\Config\Repository;
 use JetBrains\PhpStorm\ArrayShape;
-use Eduardokum\LaravelBoleto\Blade;
+use Wlrsilveira\LaravelBoleto\Blade;
 use Illuminate\Container\Container;
 use Symfony\Component\Mailer\Transport\Dsn;
 use Illuminate\View\Compilers\BladeCompiler;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto;
+use Wlrsilveira\LaravelBoleto\Boleto\Render\Pdf;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto;
 use Illuminate\Contracts\Mail\Factory as MailFactory;
 use Illuminate\Contracts\View\Factory as ViewFactory;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelMailAutoEmbed\Listeners\SwiftEmbedImages;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelMailAutoEmbed\Listeners\SwiftEmbedImages;
 use Symfony\Component\Mailer\Transport\Smtp\EsmtpTransportFactory;
-use Eduardokum\LaravelMailAutoEmbed\Contracts\Listeners\EmbedImages;
+use Wlrsilveira\LaravelMailAutoEmbed\Contracts\Listeners\EmbedImages;
 
 class Mail
 {

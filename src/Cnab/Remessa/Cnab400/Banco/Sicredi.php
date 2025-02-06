@@ -3,11 +3,11 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
 
 class Sicredi extends AbstractRemessa implements RemessaContract
 {
@@ -142,7 +142,7 @@ class Sicredi extends AbstractRemessa implements RemessaContract
     }
 
     /**
-     * @param \Eduardokum\LaravelBoleto\Boleto\Banco\Sicredi $boleto
+     * @param \Wlrsilveira\LaravelBoleto\Boleto\Banco\Sicredi $boleto
      *
      * @return Sicredi
      * @throws ValidationException

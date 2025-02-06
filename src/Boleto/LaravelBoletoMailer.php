@@ -7,8 +7,8 @@ use Illuminate\Mail\Mailer;
 use Illuminate\Foundation\Application;
 use Psr\Container\NotFoundExceptionInterface;
 use Psr\Container\ContainerExceptionInterface;
-use Eduardokum\LaravelMailAutoEmbed\Listeners\SymfonyEmbedImages;
-use Eduardokum\LaravelMailAutoEmbed\Contracts\Listeners\EmbedImages;
+use Wlrsilveira\LaravelMailAutoEmbed\Listeners\SymfonyEmbedImages;
+use Wlrsilveira\LaravelMailAutoEmbed\Contracts\Listeners\EmbedImages;
 
 class LaravelBoletoMailer extends Mailer
 {

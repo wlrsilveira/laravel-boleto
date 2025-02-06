@@ -4,8 +4,8 @@ namespace Wlrsilveira\LaravelBoletos\Webhook\Banco;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Webhook\Boleto;
-use Eduardokum\LaravelBoleto\Webhook\AbstractWebhook;
+use Wlrsilveira\LaravelBoleto\Webhook\Boleto;
+use Wlrsilveira\LaravelBoleto\Webhook\AbstractWebhook;
 
 class Inter extends AbstractWebhook
 {

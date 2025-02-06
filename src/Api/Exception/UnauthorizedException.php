@@ -2,7 +2,7 @@
 
 namespace Wlrsilveira\LaravelBoletos\Api\Exception;
 
-use Eduardokum\LaravelBoleto\Exception\BaseException;
+use Wlrsilveira\LaravelBoleto\Exception\BaseException;
 
 class UnauthorizedException extends BaseException
 {

@@ -2,11 +2,11 @@
 
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240\Banco;
 
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\RetornoCnab240;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoleto\Contracts\Cnab\RetornoCnab240;
+use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
+use Wlrsilveira\LaravelBoleto\Util;
 use Illuminate\Support\Arr;
 
 class Ailos extends AbstractRetorno implements RetornoCnab240

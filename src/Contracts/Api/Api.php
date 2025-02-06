@@ -2,7 +2,7 @@
 
 namespace Wlrsilveira\LaravelBoletos\Contracts\Api;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\BoletoAPI;
+use Wlrsilveira\LaravelBoleto\Contracts\Boleto\BoletoAPI;
 
 interface Api
 {
