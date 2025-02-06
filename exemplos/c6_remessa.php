@@ -1,7 +1,7 @@
 <?php
 
 require 'autoload.php';
-$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'cep'       => '99999-999',
@@ -10,7 +10,7 @@ $beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
+$pagador = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'Cliente',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -20,7 +20,7 @@ $pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '999.999.999-99',
 ]);
 
-$boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\C6([
+$boleto = new Wlrsilveira\LaravelBoletos\Boleto\Banco\C6([
     'logo'                   => realpath(__DIR__ . '/../logos/') . DIRECTORY_SEPARATOR . '336.png',
     'dataVencimento'         => new Carbon\Carbon('2020-03-27'),
     'valor'                  => 100,
@@ -40,7 +40,7 @@ $boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\C6([
     'especieDoc'             => 'DM',
 ]);
 
-$remessa = new Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\Banco\C6([
+$remessa = new Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco\C6([
     'idRemessa'     => 1,
     'agencia'       => 1111,
     'carteira'      => '10',

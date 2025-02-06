@@ -4,16 +4,16 @@ namespace Wlrsilveira\LaravelBoletos\Api;
 
 use stdClass;
 use Illuminate\Support\Str;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Pessoa;
-use Wlrsilveira\LaravelBoleto\Contracts\Api\Api;
-use Wlrsilveira\LaravelBoleto\Api\Exception\CurlException;
-use Wlrsilveira\LaravelBoleto\Api\Exception\HttpException;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Api\Exception\MissingDataException;
-use Wlrsilveira\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Wlrsilveira\LaravelBoleto\Api\Exception\UnauthorizedException;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Pessoa;
+use Wlrsilveira\LaravelBoletos\Contracts\Api\Api;
+use Wlrsilveira\LaravelBoletos\Api\Exception\CurlException;
+use Wlrsilveira\LaravelBoletos\Api\Exception\HttpException;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Api\Exception\MissingDataException;
+use Wlrsilveira\LaravelBoletos\Contracts\Pessoa as PessoaContract;
+use Wlrsilveira\LaravelBoletos\Api\Exception\UnauthorizedException;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
 
 abstract class AbstractAPI implements Api
 {

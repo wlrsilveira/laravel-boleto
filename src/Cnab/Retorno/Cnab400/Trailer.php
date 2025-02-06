@@ -2,8 +2,8 @@
 
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400;
 
-use Wlrsilveira\LaravelBoleto\MagicTrait;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Trailer as TrailerContract;
+use Wlrsilveira\LaravelBoletos\MagicTrait;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab400\Trailer as TrailerContract;
 
 class Trailer implements TrailerContract
 {

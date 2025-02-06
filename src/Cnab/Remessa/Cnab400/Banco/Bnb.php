@@ -2,12 +2,12 @@
 
 namespace Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco;
 
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\CalculoDV;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\CalculoDV;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Remessa as RemessaContract;
 
 class Bnb extends AbstractRemessa implements RemessaContract
 {
@@ -107,7 +107,7 @@ class Bnb extends AbstractRemessa implements RemessaContract
     }
 
     /**
-     * @param \Wlrsilveira\LaravelBoleto\Boleto\Banco\Bnb $boleto
+     * @param \Wlrsilveira\LaravelBoletos\Boleto\Banco\Bnb $boleto
      *
      * @return Bnb
      * @throws ValidationException

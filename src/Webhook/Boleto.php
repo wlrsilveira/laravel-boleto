@@ -4,8 +4,8 @@ namespace Wlrsilveira\LaravelBoletos\Webhook;
 
 use Exception;
 use Carbon\Carbon;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\MagicTrait;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\MagicTrait;
 
 class Boleto
 {

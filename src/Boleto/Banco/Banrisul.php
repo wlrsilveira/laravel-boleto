@@ -2,11 +2,11 @@
 
 namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\CalculoDV;
-use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\CalculoDV;
+use Wlrsilveira\LaravelBoletos\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 class Banrisul extends AbstractBoleto implements BoletoContract
 {

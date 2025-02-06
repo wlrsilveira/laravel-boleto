@@ -3,11 +3,11 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240\Banco;
 
 use Illuminate\Support\Arr;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\RetornoCnab240;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\RetornoCnab240;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240\AbstractRetorno;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 class Btg extends AbstractRetorno implements RetornoCnab240
 {

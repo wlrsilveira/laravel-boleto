@@ -2,7 +2,7 @@
 
 namespace Wlrsilveira\LaravelBoletos\Api\Exception;
 
-use Wlrsilveira\LaravelBoleto\Exception\BaseException;
+use Wlrsilveira\LaravelBoletos\Exception\BaseException;
 
 class CurlException extends BaseException
 {

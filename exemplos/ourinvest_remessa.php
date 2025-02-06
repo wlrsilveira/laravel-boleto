@@ -1,7 +1,7 @@
 <?php
 
 require 'autoload.php';
-$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'cep'       => '99999-999',
@@ -10,7 +10,7 @@ $beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
+$pagador = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'Cliente',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -21,7 +21,7 @@ $pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
     'email'     => 'email@dominio.com',
 ]);
 
-$boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Ourinvest([
+$boleto = new Wlrsilveira\LaravelBoletos\Boleto\Banco\Ourinvest([
     'logo'                   => realpath(__DIR__ . '/../logos/') . DIRECTORY_SEPARATOR . '712.png',
     'dataVencimento'         => new Carbon\Carbon(),
     'valor'                  => 100,
@@ -41,7 +41,7 @@ $boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Ourinvest([
     'chaveNfe'               => '12345678901234567890123456789012345678901234',
 ]);
 
-$remessa = new Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\Banco\Ourinvest([
+$remessa = new Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco\Ourinvest([
     'idRemessa'    => 1,
     'agencia'      => 1111,
     'carteira'     => '19',

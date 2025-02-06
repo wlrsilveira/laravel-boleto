@@ -1,7 +1,7 @@
 <?php
 
 require 'autoload.php';
-$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'cep'       => '99999-999',
@@ -10,7 +10,7 @@ $beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
+$pagador = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'Cliente',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -20,7 +20,7 @@ $pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '999.999.999-99',
 ]);
 
-$boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Fibra([
+$boleto = new Wlrsilveira\LaravelBoletos\Boleto\Banco\Fibra([
     'logo'                   => realpath(__DIR__ . '/../logos/') . DIRECTORY_SEPARATOR . '224.png',
     'dataVencimento'         => new Carbon\Carbon('2023-01-04'),
     'valor'                  => 10,
@@ -42,7 +42,7 @@ $boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Fibra([
     'especieDoc'             => 'DM',
 ]);
 
-$remessa = new Wlrsilveira\LaravelBoleto\Cnab\Remessa\Cnab400\Banco\Fibra([
+$remessa = new Wlrsilveira\LaravelBoletos\Cnab\Remessa\Cnab400\Banco\Fibra([
     'agencia'       => '0001',
     'conta'         => '1234567',
     'contaDv'       => 9,

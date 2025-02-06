@@ -12,15 +12,15 @@ use Countable;
 use ReflectionClass;
 use SeekableIterator;
 use OutOfBoundsException;
-use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoletos\Util;
 use Illuminate\Support\Collection;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab240\Header as Header240Contract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Header as Header400Contract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab240\Detalhe as Detalhe240Contract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab240\Trailer as Trailer240Contract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Detalhe as Detalhe400Contract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Trailer as Trailer400Contract;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240\Header as Header240Contract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab400\Header as Header400Contract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240\Detalhe as Detalhe240Contract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240\Trailer as Trailer240Contract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab400\Detalhe as Detalhe400Contract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab400\Trailer as Trailer400Contract;
 
 abstract class AbstractRetorno implements Countable, SeekableIterator
 {
@@ -91,7 +91,7 @@ abstract class AbstractRetorno implements Countable, SeekableIterator
             throw new ValidationException('Arquivo: não existe');
         }
 
-        $r = new ReflectionClass('\Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto');
+        $r = new ReflectionClass('\Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto');
         $constantNames = $r->getConstants();
         $bancosDisponiveis = [];
         foreach ($constantNames as $constantName => $codigoBanco) {

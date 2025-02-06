@@ -1,7 +1,7 @@
 <?php
 
 require 'autoload.php';
-$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -11,7 +11,7 @@ $beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
+$pagador = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'Cliente',
     'endereco'  => 'Rua um, 123',
     'bairro'    => 'Bairro',
@@ -21,7 +21,7 @@ $pagador = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '999.999.999-99',
 ]);
 
-$boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Bb([
+$boleto = new Wlrsilveira\LaravelBoletos\Boleto\Banco\Bb([
     'logo'                   => realpath(__DIR__ . '/../logos/') . DIRECTORY_SEPARATOR . '001.png',
     'dataVencimento'         => new Carbon\Carbon(),
     'valor'                  => 100,
@@ -39,6 +39,6 @@ $boleto = new Wlrsilveira\LaravelBoleto\Boleto\Banco\Bb([
     'convenio'               => 1234567,
 ]);
 
-$pdf = new Wlrsilveira\LaravelBoleto\Boleto\Render\Pdf();
+$pdf = new Wlrsilveira\LaravelBoletos\Boleto\Render\Pdf();
 $pdf->addBoleto($boleto);
 $pdf->gerarBoleto($pdf::OUTPUT_SAVE, __DIR__ . DIRECTORY_SEPARATOR . 'arquivos' . DIRECTORY_SEPARATOR . 'bb.pdf');

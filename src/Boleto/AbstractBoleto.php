@@ -8,17 +8,17 @@ use Carbon\Carbon;
 use Illuminate\Support\Str;
 use chillerlan\QRCode\QRCode;
 use chillerlan\QRCode\QROptions;
-use Wlrsilveira\LaravelBoleto\Util;
+use Wlrsilveira\LaravelBoletos\Util;
 use chillerlan\QRCode\Data\QRMatrix;
-use Wlrsilveira\LaravelBoleto\MagicTrait;
+use Wlrsilveira\LaravelBoletos\MagicTrait;
 use chillerlan\QRCode\Output\QROutputInterface;
-use Wlrsilveira\LaravelBoleto\Boleto\Render\Pdf;
-use Wlrsilveira\LaravelBoleto\Boleto\Render\Html;
-use Wlrsilveira\LaravelBoleto\Boleto\Render\PdfCaixa;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Boleto\Render\Pdf;
+use Wlrsilveira\LaravelBoletos\Boleto\Render\Html;
+use Wlrsilveira\LaravelBoletos\Boleto\Render\PdfCaixa;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Pessoa as PessoaContract;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 /**
  * Class AbstractBoleto

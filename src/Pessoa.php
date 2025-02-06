@@ -2,8 +2,8 @@
 
 namespace Wlrsilveira\LaravelBoletos;
 
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Pessoa as PessoaContract;
 
 class Pessoa implements PessoaContract
 {

@@ -2,7 +2,7 @@
 
 require 'autoload.php';
 
-$beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
+$beneficiario = new Wlrsilveira\LaravelBoletos\Pessoa([
     'nome'      => 'ACME',
     'endereco'  => 'Rua um, 123',
     'cep'       => '99999-999',
@@ -11,7 +11,7 @@ $beneficiario = new Wlrsilveira\LaravelBoleto\Pessoa([
     'documento' => '99.999.999/9999-99',
 ]);
 
-$api = new Wlrsilveira\LaravelBoleto\Api\Banco\Inter([
+$api = new Wlrsilveira\LaravelBoletos\Api\Banco\Inter([
     'conta'            => '123456789',
     'certificado'      => realpath(__DIR__ . '/certs/') . DIRECTORY_SEPARATOR . 'cert.crt',
     'certificadoChave' => realpath(__DIR__ . '/certs/') . DIRECTORY_SEPARATOR . 'key.key',
@@ -20,6 +20,6 @@ $api = new Wlrsilveira\LaravelBoleto\Api\Banco\Inter([
 $retorno = $api->retrieveList();
 
 dd($retorno);
-//$pdf = new Wlrsilveira\LaravelBoleto\Boleto\Render\Pdf();
+//$pdf = new Wlrsilveira\LaravelBoletos\Boleto\Render\Pdf();
 //$pdf->addBoletos($retorno);
 //$pdf->gerarBoleto($pdf::OUTPUT_SAVE, __DIR__ . DIRECTORY_SEPARATOR . 'arquivos' . DIRECTORY_SEPARATOR . 'inter_lista_v2.pdf');

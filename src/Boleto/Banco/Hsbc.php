@@ -2,9 +2,9 @@
 
 namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 class Hsbc extends AbstractBoleto implements BoletoContract
 {

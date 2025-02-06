@@ -3,11 +3,11 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400;
 
 use Carbon\Carbon;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Pessoa;
-use Wlrsilveira\LaravelBoleto\MagicTrait;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Detalhe as DetalheContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Pessoa;
+use Wlrsilveira\LaravelBoletos\MagicTrait;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab400\Detalhe as DetalheContract;
 
 class Detalhe implements DetalheContract
 {

@@ -2,7 +2,7 @@
 
 namespace Wlrsilveira\LaravelBoletos\Contracts\Boleto;
 
-use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoletos\Boleto\AbstractBoleto;
 
 interface BoletoAPI extends Boleto
 {

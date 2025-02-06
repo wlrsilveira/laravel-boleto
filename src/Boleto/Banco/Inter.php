@@ -4,11 +4,11 @@ namespace Wlrsilveira\LaravelBoletos\Boleto\Banco;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
 
 class Inter extends AbstractBoleto implements BoletoAPIContract
 {

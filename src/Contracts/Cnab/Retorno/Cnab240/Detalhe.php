@@ -2,7 +2,7 @@
 
 namespace Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240;
 
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Detalhe as DetalheBase;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Detalhe as DetalheBase;
 
 interface Detalhe extends DetalheBase
 {

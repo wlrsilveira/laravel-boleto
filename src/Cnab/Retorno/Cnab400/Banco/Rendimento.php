@@ -3,11 +3,11 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400\Banco;
 
 use Illuminate\Support\Arr;
-use Wlrsilveira\LaravelBoleto\Util;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\RetornoCnab400;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Cnab\Retorno\Cnab400\AbstractRetorno;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Util;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\RetornoCnab400;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab400\AbstractRetorno;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 class Rendimento extends AbstractRetorno implements RetornoCnab400
 {

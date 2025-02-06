@@ -3,10 +3,10 @@
 namespace Wlrsilveira\LaravelBoletos\Cnab\Retorno\Cnab240;
 
 use Illuminate\Support\Collection;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Cnab\Retorno\AbstractRetorno as AbstractRetornoGeneric;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab240\HeaderLote as HeaderLoteContract;
-use Wlrsilveira\LaravelBoleto\Contracts\Cnab\Retorno\Cnab240\TrailerLote as TrailerLoteContract;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Cnab\Retorno\AbstractRetorno as AbstractRetornoGeneric;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240\HeaderLote as HeaderLoteContract;
+use Wlrsilveira\LaravelBoletos\Contracts\Cnab\Retorno\Cnab240\TrailerLote as TrailerLoteContract;
 
 /**
  * Class AbstractRetorno

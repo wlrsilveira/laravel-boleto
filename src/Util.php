@@ -1,6 +1,6 @@
 <?php
 
-namespace Wlrsilveira\LaravelBoleto;
+namespace Wlrsilveira\LaravelBoletos;
 
 use Exception;
 use Carbon\Carbon;
@@ -8,9 +8,9 @@ use NumberFormatter;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Http\UploadedFile;
-use Wlrsilveira\LaravelBoleto\Boleto\AbstractBoleto;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Boleto\AbstractBoleto;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
 
 /**
  * Class Util

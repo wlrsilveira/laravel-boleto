@@ -2,12 +2,12 @@
 
 namespace Wlrsilveira\LaravelBoletos\Boleto\Render;
 
-use Wlrsilveira\LaravelBoleto\Blade;
+use Wlrsilveira\LaravelBoletos\Blade;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\View\Factory;
-use Wlrsilveira\LaravelBoleto\Exception\ValidationException;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Wlrsilveira\LaravelBoleto\Contracts\Boleto\Render\Html as HtmlContract;
+use Wlrsilveira\LaravelBoletos\Exception\ValidationException;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Boleto as BoletoContract;
+use Wlrsilveira\LaravelBoletos\Contracts\Boleto\Render\Html as HtmlContract;
 
 class Html implements HtmlContract
 {
