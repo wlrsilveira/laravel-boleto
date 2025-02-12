@@ -1155,16 +1155,19 @@ final class Util
      */
     public static function addPessoa(&$property, $obj)
     {
-        if (is_subclass_of($obj, 'Wlrsilveira\\LaravelBoleto\\Contracts\\Pessoa')) {
+        if ($obj instanceof Pessoa) {
             $property = $obj;
 
             return $obj;
-        } elseif (is_array($obj)) {
+        } 
+
+        if (is_array($obj)) {
             $obj = new Pessoa($obj);
             $property = $obj;
 
             return $obj;
         }
+        
         throw new ValidationException('Objeto inválido, somente Pessoa e Array');
     }
 
